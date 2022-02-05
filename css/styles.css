@@ -543,6 +543,8 @@ select {
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 40px 0;
+  
+  
 }
 
 #services .container .card {
@@ -1561,6 +1563,7 @@ select {
 	/* General Styles */
 	.container {
 		max-width: 1140px;
+		
 	}
 	/* end of general styles */
 	
