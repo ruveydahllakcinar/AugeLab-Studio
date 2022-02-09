@@ -569,73 +569,6 @@ select {
   cursor: pointer;
 }
 
-/*************************/
-/*     Details Modal     */
-/*************************/
-.modal-dialog {
-  max-width: 1150px;
-  margin-right: 1rem;
-  margin-left: 1rem;
-  pointer-events: all;
-}
-
-.modal-content {
-  padding: 2.75rem 1.25rem;
-}
-
-.modal-content .btn-close {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
-
-.modal-content .image-container {
-  margin-bottom: 3rem;
-}
-
-.modal-content img {
-  border-radius: 6px;
-}
-
-.modal-content h3 {
-  margin-bottom: 0.5rem;
-}
-
-.modal-content hr {
-  width: 44px;
-  margin-top: 0.125rem;
-  margin-bottom: 1.25rem;
-  margin-left: 0;
-  height: 2px;
-  border: none;
-  background-color: #53575a;
-}
-
-.modal-content h4 {
-  margin-top: 2rem;
-  margin-bottom: 0.625rem;
-}
-
-.modal-content .list-unstyled {
-  margin-bottom: 2rem;
-}
-
-.modal-content .list-unstyled .fas {
-  font-size: 0.75rem;
-  line-height: 1.75rem;
-}
-
-.modal-content .list-unstyled .flex-grow-1 {
-  margin-left: 0.5rem;
-}
-
-.modal-content .btn-solid-reg {
-  margin-right: 0.75rem;
-}
-
-.modal-content .btn-outline-reg {
-  cursor: pointer;
-}
 
 /*--------------------------------------
 Eğitim Kanalları
@@ -678,7 +611,7 @@ form#contact:before {
   max-width: 300px;
   position: absolute;
   right: 5px;
-  top: -205px;
+  top: -215px;
 }
 
 form#contact:after {
@@ -816,7 +749,7 @@ form#contact button:hover {
 }
 
 .section-heading h4 em {
-  font-style: normal;
+  font-style: italic;
   color: #fbe239;
 }
 
