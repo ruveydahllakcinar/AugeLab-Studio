@@ -637,7 +637,10 @@ select {
   cursor: pointer;
 }
 
-
+/*--------------------------------------
+Eğitim Kanalları
+----------------------------------------
+*/
 
 /* 
 ---------------------------------------------
@@ -672,10 +675,10 @@ form#contact:before {
 }
 
 .contact-dec img {
-  max-width: 224px;
+  max-width: 300px;
   position: absolute;
-  right: 25px;
-  top: -242px;
+  right: 5px;
+  top: -205px;
 }
 
 form#contact:after {
