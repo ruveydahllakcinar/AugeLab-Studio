@@ -1006,7 +1006,6 @@ form#contact button:hover {
 
   /* Header */
   .header {
-    padding-top: 13rem;
     text-align: left;
   }
 
@@ -1054,7 +1053,7 @@ form#contact button:hover {
   /* Header */
   .header {
     overflow: hidden;
-    padding-top: 18.25rem;
+    padding-top: 12.25rem;
     padding-bottom: 11.5rem;
   }
 
