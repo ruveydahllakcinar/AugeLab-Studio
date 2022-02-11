@@ -64,11 +64,7 @@
   <body data-bs-spy="scroll" data-bs-target="#navbarExample">
     <div class="container">
       <!-- Navigation -->
-      <nav
-        id="navbarExample"
-        class="navbar navbar-expand-lg fixed-top navbar-light"
-        aria-label="Main navigation"
-      >
+      <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
         <div class="container">
           <!-- Image Logo -->
           <a class="navbar-brand logo-image" href="index.html"
@@ -78,55 +74,46 @@
           <!-- Text Logo - Use this if you don't have a graphic logo -->
           <!-- <a class="navbar-brand logo-text" href="index.html">Logo</a> -->
 
-          <button
-            class="navbar-toggler p-0 border-0"
-            type="button"
-            id="navbarSideCollapse"
-            aria-label="Toggle navigation"
+          <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
-          <div
-            class="navbar-collapse offcanvas-collapse"
-            id="navbarsExampleDefault"
-          >
+          <!-- Start of navbar-collapse -->
+          <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ms-auto navbar-nav-scroll">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#header"
-                  >Home</a
-                >
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#support">Support</a>
+                <a class="nav-link" href="support.html">Support</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#company">Company</a>
+                <a class="nav-link" href="company.html">Company</a>
               </li>
 
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#recources" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Recources</a>
+                <a class="nav-link dropdown-toggle" href="#resources.html" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                  <li><a class="dropdown-item" href="article.html">Blog</a></li>
+                  <li><a class="dropdown-item" href="blog.html">Blog</a></li>
                   <li><div class="dropdown-divider"></div></li>
                   <li>
-                    <a class="dropdown-item" href="article.html">Download</a>
+                    <a class="dropdown-item" href="download.html">Download</a>
                   </li>
                   <li><div class="dropdown-divider"></div></li>
                   <li>
-                    <a class="dropdown-item" href="terms.html">Documentition</a>
+                    <a class="dropdown-item" href="documentation.html">Documentation</a>
                   </li>
                 </ul>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
+                  <a class="nav-link" href="contact.html">Contact</a>
                 </li>
               </li>
             </ul>
             <span class="nav-item">
-              <a class="btn-solid-sm" href="#signin">SIGN IN</a>
+              <a class="btn-solid-sm" href="signin.html">SIGN IN</a>
             </span>
             <span class="nav-item">
-              <a class="btn-solid-sm" href="#signin">SIGN UP</a>
+              <a class="btn-solid-sm" href="signup.html">SIGN UP</a>
             </span>
           </div>
           <!-- end of navbar-collapse -->
@@ -142,16 +129,20 @@
           <div class="row">
             <div class="col-lg-6 col-xl-5">
               <div class="text-container">
-                <div class="section-title">Welcome AugeLab Studio</div>
                 <h1 class="h1-large">Lorem ipsum dolor sit amet</h1>
                 <p class="p-large">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                   dignissim, neque ut ultrices sollicitudin
                 </p>
-                <a class="btn-solid-lg" href="#services">Sign Up</a>
-                <a class="quote" href="#contact"
-                  ><i class="fas fa-paper-plane"></i>Contact</a
-                >
+                <a class="btn-solid-lg" href="signup.html">Sign Up</a>
+                <a class="quote" href="contact.html"
+                  ><img src="data:image/png;base64,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">Contact</a>
+                  <a class="quote" href="support.html"
+                  ><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                  width="64" height="64"
+                  viewBox="0 0 172 172"
+                  style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><path d="M21.5,172c-11.87412,0 -21.5,-9.62588 -21.5,-21.5v-129c0,-11.87412 9.62588,-21.5 21.5,-21.5h129c11.87412,0 21.5,9.62588 21.5,21.5v129c0,11.87412 -9.62588,21.5 -21.5,21.5z" fill="#ffffff"></path><g><path d="M98.09375,25.53125v38.7c0,5.34335 -4.33165,9.675 -9.675,9.675h-16.93125l4.8375,12.09375l-19.35,-12.09375h-31.44375c-5.34335,0 -9.675,-4.33165 -9.675,-9.675v-38.7c0,-5.34335 4.33165,-9.675 9.675,-9.675h62.8875c5.34335,0 9.675,4.33165 9.675,9.675z" fill="#46f8ff"></path><path d="M98.09375,25.53125v38.7c0,5.34335 -4.33165,9.675 -9.675,9.675h-9.675c5.34335,0 9.675,-4.33165 9.675,-9.675v-38.7c0,-5.34335 -4.33165,-9.675 -9.675,-9.675h9.675c5.34335,0 9.675,4.33165 9.675,9.675z" fill="#00d7df"></path><path d="M156.14375,141.63125v9.675c-0.00797,2.66837 -2.16913,4.82953 -4.8375,4.8375h-72.5625c-2.66837,-0.00797 -4.82953,-2.16913 -4.8375,-4.8375v-9.675c0,-10.68671 8.66329,-19.35 19.35,-19.35h43.5375c10.68671,0 19.35,8.66329 19.35,19.35z" fill="#2488ff"></path><path d="M156.14375,141.63125v9.675c-0.00797,2.66837 -2.16913,4.82953 -4.8375,4.8375h-9.675c2.66837,-0.00797 4.82953,-2.16913 4.8375,-4.8375v-9.675c-0.00407,-9.0106 -6.21891,-16.82928 -14.99625,-18.86625l0.48375,-0.48375h4.8375c10.68671,0 19.35,8.66329 19.35,19.35z" fill="#005ece"></path><path d="M144.05,44.88125v14.5125c0.00218,5.18151 -2.76519,9.96905 -7.25625,12.55331v-2.87831l-26.60625,-7.25625l-16.93125,7.25625v4.8375c-4.00752,0 -7.25625,-3.24873 -7.25625,-7.25625v-7.25625c0,-8.01503 6.49747,-14.5125 14.5125,-14.5125z" fill="#ffde55"></path><path d="M136.79375,69.06875v19.35c0.00838,9.22492 -5.81056,17.44904 -14.5125,20.511c-4.69217,1.67697 -9.82033,1.67697 -14.5125,0c-8.70194,-3.06196 -14.52088,-11.28608 -14.5125,-20.511v-19.35l16.93125,-7.25625z" fill="#ffdaaa"></path><path d="M144.05,44.88125v14.5125c0.00218,5.18151 -2.76519,9.96905 -7.25625,12.55331v-2.87831l-5.05519,-1.37869c1.72361,-2.42227 2.64555,-5.32341 2.63644,-8.29631v-14.5125z" fill="#ebbf00"></path><path d="M136.79375,69.06875v19.35c0.00838,9.22492 -5.81056,17.44904 -14.5125,20.511c-2.3273,0.83768 -4.78279,1.2633 -7.25625,1.25775c-1.63018,0.00516 -3.25483,-0.18979 -4.8375,-0.5805c0.82518,-0.15168 1.63479,-0.37837 2.41875,-0.67725c8.70194,-3.06196 14.52088,-11.28608 14.5125,-20.511v-19.35l-20.7045,-5.63569l3.77325,-1.62056z" fill="#ffb655"></path><path d="M131.95625,122.28125l-16.93125,16.93125l-16.93125,-16.93125l9.675,-7.25625v-6.09525c4.69217,1.67697 9.82033,1.67697 14.5125,0v6.09525z" fill="#ffdaaa"></path><path d="M122.28125,113.76725c-4.69217,1.67697 -9.82033,1.67697 -14.5125,0v-4.8375c4.69217,1.67697 9.82033,1.67697 14.5125,0z" fill="#ffb655"></path><rect x="22.55556" y="17.55556" transform="scale(2.41875,2.41875)" width="6" height="2" fill="#000000"></rect><rect x="18.55556" y="17.55556" transform="scale(2.41875,2.41875)" width="2" height="2" fill="#000000"></rect><path d="M136.79375,119.8625h-4.03931l-8.05444,-6.04687v-3.24113c8.80493,-3.85169 14.49939,-12.54523 14.5125,-22.15575v-15.18975c4.53504,-3.14822 7.24467,-8.31458 7.25625,-13.83525v-14.5125c0,-1.33584 -1.08291,-2.41875 -2.41875,-2.41875h-43.5375v-16.93125c0,-6.67919 -5.41456,-12.09375 -12.09375,-12.09375h-62.8875c-6.67919,0 -12.09375,5.41456 -12.09375,12.09375v38.7c0,6.67919 5.41456,12.09375 12.09375,12.09375h30.74231l18.7695,11.73094c0.88767,0.55824 2.03394,0.48093 2.8386,-0.19146c0.80466,-0.67239 1.08442,-1.78668 0.69278,-2.75941l-3.50719,-8.78006h13.3515c0.8128,-0.01283 1.6226,-0.10191 2.41875,-0.26606v12.35981c0.01311,9.61052 5.70757,18.30406 14.5125,22.15575v3.24113l-8.05444,6.04687h-4.03931c-12.01482,0.01865 -21.7501,9.75393 -21.76875,21.76875v9.675c0.01195,4.00255 3.2537,7.2443 7.25625,7.25625h72.5625c4.00255,-0.01195 7.2443,-3.2537 7.25625,-7.25625v-9.675c-0.01865,-12.01482 -9.75393,-21.7501 -21.76875,-21.76875zM84.93575,71.4875h-13.44825c-0.80454,-0.00121 -1.55702,0.39769 -2.00756,1.06425c-0.43954,0.66662 -0.52965,1.50462 -0.24188,2.24944l2.08013,5.2245l-13.06125,-8.17538c-0.38428,-0.24002 -0.82887,-0.36584 -1.28194,-0.36281h-31.44375c-4.00255,-0.01195 -7.2443,-3.2537 -7.25625,-7.25625v-38.7c0.01195,-4.00255 3.2537,-7.2443 7.25625,-7.25625h62.8875c4.00255,0.01195 7.2443,3.2537 7.25625,7.25625v17.63269c-7.16557,2.15623 -12.07663,8.74687 -12.09375,16.22981v7.25625c0.00667,1.70519 0.47471,3.37678 1.3545,4.8375zM90.8375,69.06875v1.7415c-1.48775,-0.85891 -2.40838,-2.4424 -2.41875,-4.16025v-7.25625c0,-6.67919 5.41456,-12.09375 12.09375,-12.09375h41.11875v12.09375c-0.00584,2.96706 -1.10854,5.82719 -3.096,8.03025c-0.29035,-0.33723 -0.67971,-0.57423 -1.11263,-0.67725l-26.60625,-7.25625c-0.51944,-0.1509 -1.07517,-0.1167 -1.57219,0.09675l-16.93125,7.25625c-0.89374,0.37853 -1.47465,1.25465 -1.47544,2.22525zM95.675,88.41875v-17.75362l14.68181,-6.28875l24.01819,6.53063v17.51175c0,10.68671 -8.66329,19.35 -19.35,19.35c-10.68671,0 -19.35,-8.66329 -19.35,-19.35zM109.22,116.96c0.60492,-0.46023 0.96226,-1.17493 0.9675,-1.935v-2.9025c3.19275,0.645 6.48225,0.645 9.675,0v2.9025c0.00524,0.76007 0.36258,1.47477 0.9675,1.935l7.44975,5.58731l-13.25475,13.25475l-13.25475,-13.25475zM153.725,151.30625c0,1.33584 -1.08291,2.41875 -2.41875,2.41875h-72.5625c-1.33584,0 -2.41875,-1.08291 -2.41875,-2.41875v-9.675c0.01066,-9.34645 7.5848,-16.92059 16.93125,-16.93125h3.84581l16.20563,16.22981c0.95059,0.94326 2.48404,0.94326 3.43462,0l16.20562,-16.22981h3.84581c9.34645,0.01066 16.92059,7.5848 16.93125,16.93125z" fill="#000000"></path><rect x="33.55556" y="59.55556" transform="scale(2.41875,2.41875)" width="2" height="2" fill="#000000"></rect><rect x="37.55556" y="59.55556" transform="scale(2.41875,2.41875)" width="20" height="2" fill="#000000"></rect><rect x="59.55556" y="59.55556" transform="scale(2.41875,2.41875)" width="2" height="2" fill="#000000"></rect><rect x="50.55556" y="31.55556" transform="scale(2.41875,2.41875)" width="2" height="2" fill="#000000"></rect><rect x="42.55556" y="31.55556" transform="scale(2.41875,2.41875)" width="2" height="2" fill="#000000"></rect><path d="M123.57528,97.79866l2.83477,-2.83236l-3.42011,-3.42011l-2.83477,2.83236c-2.87021,2.74281 -7.39013,2.74281 -10.26034,0l-2.83477,-2.83236l-3.42011,3.42011l2.83477,2.83236c4.72261,4.72118 12.37795,4.72118 17.10056,0z" fill="#000000"></path></g><path d="" fill="none"></path><path d="" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="none"></path><path d="M86,168.56c-45.59663,0 -82.56,-36.96337 -82.56,-82.56v0c0,-45.59663 36.96337,-82.56 82.56,-82.56v0c45.59663,0 82.56,36.96337 82.56,82.56v0c0,45.59663 -36.96337,82.56 -82.56,82.56z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="none"></path><path d="M86,161.68c-41.79691,0 -75.68,-33.88309 -75.68,-75.68v0c0,-41.79691 33.88309,-75.68 75.68,-75.68v0c41.79691,0 75.68,33.88309 75.68,75.68v0c0,41.79691 -33.88309,75.68 -75.68,75.68z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="none"></path><path d="M86,158.24c-39.89705,0 -72.24,-32.34295 -72.24,-72.24v0c0,-39.89705 32.34295,-72.24 72.24,-72.24h0c39.89705,0 72.24,32.34295 72.24,72.24v0c0,39.89705 -32.34295,72.24 -72.24,72.24z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="none"></path><path d="M86,154.8c-37.99719,0 -68.8,-30.80281 -68.8,-68.8v0c0,-37.99719 30.80281,-68.8 68.8,-68.8h0c37.99719,0 68.8,30.80281 68.8,68.8v0c0,37.99719 -30.80281,68.8 -68.8,68.8z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="none"></path><path d="M86,151.36c-36.09733,0 -65.36,-29.26267 -65.36,-65.36v0c0,-36.09733 29.26267,-65.36 65.36,-65.36h0c36.09733,0 65.36,29.26267 65.36,65.36v0c0,36.09733 -29.26267,65.36 -65.36,65.36z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="none"></path><path d="M86,147.92c-34.19747,0 -61.92,-27.72253 -61.92,-61.92v0c0,-34.19747 27.72253,-61.92 61.92,-61.92h0c34.19747,0 61.92,27.72253 61.92,61.92v0c0,34.19747 -27.72253,61.92 -61.92,61.92z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="none"></path><path d="M86,144.48c-32.29761,0 -58.48,-26.18239 -58.48,-58.48v0c0,-32.29761 26.18239,-58.48 58.48,-58.48h0c32.29761,0 58.48,26.18239 58.48,58.48v0c0,32.29761 -26.18239,58.48 -58.48,58.48z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="none"></path><path d="M86,141.04c-30.39775,0 -55.04,-24.64225 -55.04,-55.04v0c0,-30.39775 24.64225,-55.04 55.04,-55.04v0c30.39775,0 55.04,24.64225 55.04,55.04v0c0,30.39775 -24.64225,55.04 -55.04,55.04z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="none"></path><path d="M86,137.6c-28.49789,0 -51.6,-23.10211 -51.6,-51.6v0c0,-28.49789 23.10211,-51.6 51.6,-51.6v0c28.49789,0 51.6,23.10211 51.6,51.6v0c0,28.49789 -23.10211,51.6 -51.6,51.6z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="none"></path><path d="M86,151.36c-36.09733,0 -65.36,-29.26267 -65.36,-65.36v0c0,-36.09733 29.26267,-65.36 65.36,-65.36h0c36.09733,0 65.36,29.26267 65.36,65.36v0c0,36.09733 -29.26267,65.36 -65.36,65.36z" fill="none"></path><path d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z" fill="none"></path><path d="M86,168.56c-45.59663,0 -82.56,-36.96337 -82.56,-82.56v0c0,-45.59663 36.96337,-82.56 82.56,-82.56v0c45.59663,0 82.56,36.96337 82.56,82.56v0c0,45.59663 -36.96337,82.56 -82.56,82.56z" fill="none"></path></g></svg>Support</a>
+
               </div>
               <!-- end of text-container -->
             </div>
@@ -231,13 +222,13 @@
                 <div class="row" data-aos="fade-up">
                  
                     <div class="col-md-6">
-                        <img src="images/computer.gif" class="img-fluid" alt="AUGELAB STUDIO">
+                        <img src="images/computer.gif" class="img-fluid img-border" alt="AUGELAB STUDIO">
                     </div>
                     <div class="col-md-6 pt-4">
                     
                         <h3> DEVELOP A SPECIFIC FLEXIBLE SOLUTION TO THE PROBLEM</h3>
                       
-                        <p class="fst-italic" style="text-align: center;">
+                        <p class="fst-italic">
                           Flexible Programming with Drag and Drop AugeLab Studio was designed to develop flexible solutions to different production and quality problems occurring in production facilities.
                         </p>
                     </div>
@@ -245,7 +236,7 @@
                 <hr>
                 <div class="row" data-aos="fade-up">
                     <div class="col-md-6 order-1 order-md-2">
-                        <img src="images/ai.gif" class="img-fluid" alt="AUGELAB STUDIO">
+                        <img src="images/ai.gif" class="img-fluid img-border" alt="AUGELAB STUDIO">
                     </div>
                     <div class="col-md-6 pt-5 order-2 order-md-1">
                         <h3>THE EASIEST AND FASTEST WAY TO DEVELOP SOLUTIONS</h3>
@@ -259,7 +250,7 @@
                 <hr>
                 <div class="row" data-aos="fade-up">
                     <div class="col-md-6">
-                        <img src="images/tecnology.gif" class="img-fluid" alt="AUGELAB STUDIO">
+                        <img src="images/tecnology.gif" class="img-fluid img-border" alt="AUGELAB STUDIO">
                     </div>
                     <div class="col-md-6 pt-5">
                         <h3>COMPATIBLE WITH ALL IP AND USB CAMERAS</h3>
@@ -284,7 +275,7 @@
             <div class="col-lg-6 col-xl-7">
               <div class="image-container">
                 <img
-                  class="img-fluid"
+                  class="img-fluid img-border"
                   src="images/about us.jpg"
                   alt="alternative"
                 />
@@ -333,38 +324,38 @@
             </div>
             <div class="row">
               <div class="col-md-4 mb-6">
-                <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="images/python.png" width="90" alt="" />
+                <div class="text-center px-lg-3"><img class="img-fluid img-logo mb-3" src="images/python.png" width="90" alt="" />
                   <h5 class="fw-bold">PYTHON</h5>
                   <p class="mb-md-0">Primarily a general purpose programming language that supports object-based programming and functional programming at a certain rate.</p>
                 </div>
               </div>
               <div class="col-md-4 mb-6">
-                <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="images/tensorflow-seeklogo.com.svg" width="90" alt="" />
+                <div class="text-center px-lg-3"><img class="img-fluid img-logo mb-3" src="images/tensorflow-seeklogo.com.svg" width="90" alt="" />
                   <h5 class="fw-bold">TENSORFLOW</h5>
                   <p class="mb-md-0">It is a free and open source software library for machine learning.</p>
                 </div>
               </div>
               <div class="col-md-4 mb-6">
-                <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="images/opencv.png" width="90" alt="" />
+                <div class="text-center px-lg-3"><img class="img-fluid img-logo mb-3" src="images/opencv.png" width="90" alt="" />
                   <h5 class="fw-bold">OPENCV</h5>
                   <p class="mb-md-0"> Stands for (Open Source Computer Vision). Open source image processing library.</p>
                 </div>
               </div>    
               <div class="col-md-4 mb-6">
-                <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="images/Keras.png" width="90" alt="" />
+                <div class="text-center px-lg-3"><img class="img-fluid img-logo mb-3" src="images/Keras.png" width="90" alt="" />
                   <h5 class="fw-bold">KERAS</h5>
                   <p class="mb-md-0">It's an open source neural network library written in Python.</p>
                 </div>
               </div>
               <div class="col-md-4 mb-6">
-                <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="images/nvidia.png" width="90" alt="" />
+                <div class="text-center px-lg-3"><img class="img-fluid img-logo mb-3" src="images/nvidia.png" width="90" alt="" />
                   <h5 class="fw-bold">NVIDIA</h5>
                   <p class="mb-md-0">Graphics processors for gamers also produce systems in the chip for mobile devices and the automotive market.</p>
                 </div>
               </div>
 
               <div class="col-md-4 mb-6">
-                <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="images/YOLO.png" width="90" alt="" />
+                <div class="text-center px-lg-3"><img class="img-fluid img-logo mb-3" src="images/YOLO.png" width="120" alt="" />
                   <h5 class="fw-bold">YOLO</h5>
                   <p class="mb-md-0">You only look once (YOLO) is a state-of-the-art, real-time object detection system.</p>
                 </div>

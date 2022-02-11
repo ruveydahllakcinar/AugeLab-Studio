@@ -239,7 +239,11 @@ select {
   outline: none;
 }
 
-
+.img-logo{
+ border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 12px 12px 2px 1px rgba(230,230,230);
+}
 /**********************/
 /*     Navigation     */
 /**********************/
@@ -481,7 +485,12 @@ hr.style-ref:after {
   padding: 3rem;
    color: #333;
   margin-top: 5rem;
+ 
 
+}
+.img-border{
+  border-radius: 50px; 
+  box-shadow: 8px 8px 2px 1px rgba(230,230,230 );
 }
 /*********************/
 /*     Details 1     */
