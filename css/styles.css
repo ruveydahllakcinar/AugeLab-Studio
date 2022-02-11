@@ -479,8 +479,7 @@ hr.style-ref:after {
 .frame{
   overflow: visible;
   padding: 3rem;
-  border: 1px solid gray;
-  color: #333;
+   color: #333;
   margin-top: 5rem;
 
 }
