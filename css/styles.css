@@ -113,15 +113,15 @@ a:hover {
   background-color: #fee038;
   color: #222222;
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 15px;
   line-height: 0;
   text-decoration: none;
   transition: all 0.2s;
 }
 
 .btn-solid-reg:hover {
-  background-color: transparent;
-  color: #a9a9a9; /* needs to stay here because of the color property of a tag */
+  background-color: #D1D6D8;
+  color: #222222; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
 }
 
@@ -133,15 +133,15 @@ a:hover {
   background-color: #fee038;
   color: #222222;
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 15px;
   line-height: 0;
   text-decoration: none;
   transition: all 0.2s;
 }
 
 .btn-solid-lg:hover {
-  background-color: transparent;
-  color: #a9a9a9; /* needs to stay here because of the color property of a tag */
+  background-color: #D1D6D8;
+  color: #222222; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
 }
 
@@ -160,27 +160,27 @@ a:hover {
 }
 
 .btn-solid-sm:hover {
-  background-color: transparent;
-  color: #fee038; /* needs to stay here because of the color property of a tag */
+  background-color: #D1D6D8;
+  color: #222222; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
 }
 
 .btn-outline-reg {
   display: inline-block;
   padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-  border: 1px solid #222222;
+  border: 1px solid #a9a9a9;
   border-radius: 30px;
-  background-color: transparent;
+  background-color: #fee038;
   color: #222222;
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 15px;
   line-height: 0;
   text-decoration: none;
   transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-  background-color: #f9f9f9;
+  background-color: #D1D6D8;
   color: #222222;
   text-decoration: none;
 }
@@ -188,40 +188,40 @@ a:hover {
 .btn-outline-lg {
   display: inline-block;
   padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-  border: 1px solid #5e6576;
+  border: 1px solid #a9a9a9;
   border-radius: 30px;
-  background-color: transparent;
-  color: #5e6576;
+  background-color: #fee038;
+  color: #222222;
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 15px;
   line-height: 0;
   text-decoration: none;
   transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-  background-color: #5e6576;
-  color: #ffffff;
+  background-color: #D1D6D8;
+  color: #222222;
   text-decoration: none;
 }
 
 .btn-outline-sm {
   display: inline-block;
   padding: 1rem 1.5rem 1rem 1.5rem;
-  border: 1px solid #5e6576;
+  border: 1px solid #a9a9a9;
   border-radius: 30px;
-  background-color: transparent;
-  color: #5e6576;
+  background-color: #fee038;
+  color: #222222;
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 15px;
   line-height: 0;
   text-decoration: none;
   transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-  background-color: #5e6576;
-  color: #ffffff;
+  background-color: #D1D6D8;
+  color: #222222;
   text-decoration: none;
 }
 
@@ -239,11 +239,22 @@ select {
   outline: none;
 }
 
+
 .img-logo{
- border-radius: 20px;
-    object-fit: cover;
-    box-shadow: 12px 12px 2px 1px rgba(230,230,230);
+  
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  
+
+  
 }
+
+.img-logo:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+} 
 /**********************/
 /*     Navigation     */
 /**********************/
@@ -397,16 +408,6 @@ select {
 .header .btn-solid-lg {
   display: block;
   margin-bottom: 1.75rem;
-}
-
-.header .quote {
-  display: block;
-  color: #222222;
-}
-
-.header .quote i {
-  margin-right: 0.5rem;
-  color: #222222;
 }
 
 .header .text-container {
@@ -669,9 +670,9 @@ form#contact textarea::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #fff;
+  background-color: #fbe239;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
   color: #222222;
   margin-top: 30px;
   width: 100%;
@@ -686,7 +687,7 @@ form#contact button {
 }
 
 form#contact button:hover {
-  background-color: #fbe239!important;
+  background-color: #D1D6D8!important;
   color: #222222!important;
   
 }
