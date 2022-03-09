@@ -1020,11 +1020,8 @@ form#contact button:hover {
 @media (min-width: 1200px) {
     /* General Styles */
     .container {
-        max-width: 1140px;
+        max-width: 1340px;
     }
-   
-   
-    
     /* end of general styles */
     /* Header */
     .header {
@@ -1086,7 +1083,6 @@ a:focus {
 
 footer {
     background: #222222;
-    
 }
 
 
@@ -1104,9 +1100,7 @@ html {
 
 #start .container {
     background-color: #222222;
-    padding: 120px;
-    width: 100%;
-    height: 100%;
+    padding: 60px;
 }
 
 #start ul {
@@ -1150,4 +1144,9 @@ html {
     display: inline-block;
     border-radius: 30px;
     text-align: center;
+}
+
+.text-h3 {
+    color: #fff;
+    margin-top: 150px;
 }

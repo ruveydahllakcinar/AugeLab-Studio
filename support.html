@@ -102,64 +102,75 @@
         <!-- end of navbar -->
         <div id="start">
             <div class="container">
-                <h1 class="text-color text-center mb-4">START LEARNING AUGELAB STUDIO</h1>
-                <button class="btn-start" href="#">START NOW</button>
-                <ul class="start-nav">
-                    <li><a href="#">Installation</a></li>
-                    <li><a href="#">Getting Started</a></li>
-                    <li><a href="#">Documentition</a></li>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="installation-tab" data-bs-toggle="tab" data-bs-target="#installation" type="button" role="tab" aria-controls="installation" aria-selected="true">Installation</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="gettingstarted-tab" data-bs-toggle="tab" data-bs-target="#gettingstarted" type="button" role="tab" aria-controls="gettingstarted" aria-selected="false">Getting Started</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="documentation-tab" data-bs-toggle="tab" data-bs-target="#documentation" type="button" role="tab" aria-controls="documentation" aria-selected="false">Documentation</button>
+                    </li>
                 </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="installation" role="tabpanel" aria-labelledby="installation-tab">
+                        <div class="row">
+                            <div class="row">
+                                <div class="col-6 mt-5">
+
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iesVf1haRkA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                                </div>
+
+                                <div class="col-6 mt-5">
+                                    <h3 class="text-h3">1. Install your software quickly by following the steps.</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="text-h3 mt-5">2.Cuda and Cudnn packages Download Procedures</h3>
+                                    <ul>
+                                        <li> To use the Deep Learning functions of the software, you must install the Cuda and Cudnn packages appropriately. (NVIDIA graphics card is required.)</li>
+                                        <li> Cuda Version: v11.1 </li>
+                                        <li>Cudnn Version: v8.0.5</li>
+                                        <li>Cuda Version: v11.1</li>
+                                        <li>Cudnn Version: v8.0.5</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-6 mt-5">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NpCxsg0jr_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 mt-5">
+
+                                    <img src="images/vscode.webp">
+                                </div>
+
+                                <div class="col-6">
+                                    <h3 class="text-h3 mt-5">Download Microsoft Visual C++</h3>
+                                    <p class="text-center">Files the following packages must be installed ;</p>
+                                    <ul class="text-center">
+                                        <li> Microsoft Visual C++ 2013</li>
+                                        <li>Microsoft Visual C++ 2015</li>
+                                        <li>Microsoft Visual C++ 2017</li>
+                                        <li>Microsoft Visual C++ 2019</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="gettingstarted" role="tabpanel" aria-labelledby="gettingstarted-tab">..gettingstarted.</div>
+                    <div class="tab-pane fade" id="documentation" role="tabpanel" aria-labelledby="documentation-tab">.documentation..</div>
+                </div>
             </div>
         </div>
     </div>
-    <section class="features">
-        <div class="frame">
-            <div class="container">
-                <h1 class="text-color text-center mb-4">AUGELAB STUDIO INSTALLATION</h1>
-                <div class="row" data-aos="fade-up">
 
-                    <div class="col-md-6">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/iesVf1haRkA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-md-6 pt-4">
-                        <h3>1. Install your software quickly by following the steps.</h3>
-                    </div>
-                </div>
-                <hr>
-                <div class="row" data-aos="fade-up">
-                    <div class="col-md-6 order-1 order-md-2">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NpCxsg0jr_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-md-6 pt-5 order-2 order-md-1">
-                        <h3>2. Cuda and Cudnn packages Download Procedures</h3>
-                        <p class="fst-italic">
-                            To use the Deep Learning functions of the software, you must install the Cuda and Cudnn packages appropriately. (NVIDIA graphics card is required.) </p>
-                        <ul class="text-center">
-                            <li>Cuda Version: v11.1 </li>
-                            <li> Cudnn Version: v8.0.5</li>
-                            <li>Cuda Version: v11.1 </li>
-                            <li> Cudnn Version: v8.0.5</li>
-                        </ul>
-                    </div>
-                </div>
-                <hr>
-                <div class="row" data-aos="fade-up">
-                    <div class="col-md-4">
-                        <img src="images/vscode.webp" alt="AUGELAB STUDIO">
-                    </div>
-                    <div class="col-md-8 pt-5">
-                        <h3>COMPATIBLE WITH ALL IP AND USB CAMERAS</h3>
-                        <p class="fst-italic">
-                            Freely set up your system with all IP/USB cameras. Your solutions will be guided by reducing commissioning and stocking costs
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <hr>
-        </div>
-
-    </section>
-    <!-- End Features Section -->
 
     <!-- Back To Top Button -->
     <button onclick="topFunction()" id="myBtn">
