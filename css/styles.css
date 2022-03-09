@@ -1098,51 +1098,58 @@ html {
 
 /* support */
 
-#start .container {
+#start-nav .container {
     background-color: #222222;
+<<<<<<< Updated upstream
     padding: 60px;
+=======
+    padding: 75px;
+    margin-top: 50px;
+>>>>>>> Stashed changes
 }
 
-#start ul {
+#start-nav ul {
     list-style: none;
 }
 
-#start .start-nav {
+#start-nav .start-navbar {
     background-color: #222222;
-    position: sticky;
-    top: 0;
-    z-index: 3;
 }
 
-#start .start-nav {
+#start-nav .start-navbar {
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+#start-nav .start-navbar .nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+#start-nav .start-navbar ul {
     display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    align-items: center;
 }
 
-#start .start-nav ul {
-    display: flex;
-}
-
-#start .start-nav ul li a {
-    padding: 15px;
+#start-nav .start-navbar ul li a {
     font-weight: bold;
     font-size: 20px;
 }
 
-#start .start-nav ul li a:hover {
+#start-nav .start-navbar ul li a:hover {
     background-color: #fbe239;
     color: #000;
-    border-radius: 8px;
+    border-radius: 30px;
 }
 
-#start .btn-start {
+
+/* #start .btn-start {
     background-color: #fbe239;
-    padding: 1.250px 2.00px 1.250px 2.00px;
+    padding: 1.250rem 2.00rem 1.250rem 2.00rem;
     border: 1px solid #222222;
     display: inline-block;
     border-radius: 30px;
+<<<<<<< Updated upstream
     text-align: center;
 }
 
@@ -1150,3 +1157,7 @@ html {
     color: #fff;
     margin-top: 150px;
 }
+=======
+    margin-left: 350px;
+} */
+>>>>>>> Stashed changes
