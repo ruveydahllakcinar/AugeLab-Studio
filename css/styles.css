@@ -1098,14 +1098,18 @@ html {
 
 /* support */
 
-#start-nav .container {
+.start-nav  {
     background-color: #222222;
-<<<<<<< Updated upstream
     padding: 60px;
-=======
     padding: 75px;
     margin-top: 50px;
->>>>>>> Stashed changes
+    width: 100%;
+
+}
+.start-nav  h3{
+
+    color: white;
+
 }
 
 #start-nav ul {
@@ -1149,7 +1153,6 @@ html {
     border: 1px solid #222222;
     display: inline-block;
     border-radius: 30px;
-<<<<<<< Updated upstream
     text-align: center;
 }
 
@@ -1157,7 +1160,10 @@ html {
     color: #fff;
     margin-top: 150px;
 }
-=======
+
     margin-left: 350px;
 } */
->>>>>>> Stashed changes
+
+
+/* support header */
+
