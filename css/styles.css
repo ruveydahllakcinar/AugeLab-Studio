@@ -1022,6 +1022,9 @@ form#contact button:hover {
     .container {
         max-width: 1140px;
     }
+   
+   
+    
     /* end of general styles */
     /* Header */
     .header {
@@ -1083,6 +1086,7 @@ a:focus {
 
 footer {
     background: #222222;
+    
 }
 
 
