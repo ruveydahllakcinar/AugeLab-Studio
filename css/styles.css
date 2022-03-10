@@ -1098,21 +1098,19 @@ html {
 
 /* support */
 
-.start-nav  {
+.start-nav {
     background-color: #222222;
     padding: 60px;
     padding: 75px;
     margin-top: 50px;
     width: 100%;
-
 }
-.start-nav  h3{
 
+.start-nav h3 {
     color: white;
-
 }
 
-#start-nav ul {
+ul {
     list-style: none;
 }
 
@@ -1154,16 +1152,9 @@ html {
     display: inline-block;
     border-radius: 30px;
     text-align: center;
-}
+}*/
 
 .text-h3 {
-    color: #fff;
-    margin-top: 150px;
+    color: #000;
+    margin-top: 100px;
 }
-
-    margin-left: 350px;
-} */
-
-
-/* support header */
-
