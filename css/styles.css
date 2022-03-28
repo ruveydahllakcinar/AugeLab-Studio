@@ -1,9 +1,5 @@
 /**************************/
-
-
 /*     General Styles     */
-
-
 /**************************/
 
 body,
@@ -12,10 +8,10 @@ html {
     height: 100%;
 }
 
-body,
-p {
+body,p
+{
     color: #a9a9a9;
-    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    font: 400 18px "Open Sans", sans-serif;
 }
 
 h1 {
@@ -556,10 +552,10 @@ Eğitim Kanalları
 */
 
 
-/* 
+/*
 ---------------------------------------------
 contact
---------------------------------------------- 
+---------------------------------------------
 */
 
 .contact-us {
@@ -1157,4 +1153,37 @@ ul {
 .text-h3 {
     color: #000;
     margin-top: 100px;
+}
+.img-version{
+    width: 100%;
+}
+
+.text-center{
+    color: #000;
+}
+.text-vs{
+    color: #fbe239;
+    text-decoration:underline;
+}
+
+.btn-solid-vs{
+    display: inline-block;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border: 1px solid #a9a9a9;
+    border-radius: 30px;
+    background-color: #fee038;
+    color: #222222;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+    margin-left: 20px;
+}
+
+.btn-solid-vs:hover {
+    background-color: #d1d6d8;
+    color: #222222;
+    /* needs to stay here because of the color property of a tag */
+    text-decoration: none;
 }
