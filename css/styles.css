@@ -1213,6 +1213,7 @@ ul {
     color: #222222;
     /* needs to stay here because of the color property of a tag */
     text-decoration: none;
+<<<<<<< Updated upstream
 }
 
 
@@ -1602,4 +1603,6 @@ a:hover {
     .yellow:nth-child(2n)::before {
         background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50%);
     }
+=======
+>>>>>>> Stashed changes
 }
