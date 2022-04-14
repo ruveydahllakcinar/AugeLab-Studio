@@ -555,27 +555,6 @@ About
 ----------------------------------------
 */
 
-.details .gif-container {
-    position: relative;
-    color: #222222;
-    width: 1500px;
-}
-
-.gif-fluid {
-    width: 1500px;
-    height: 800px;
-}
-
-.details .text {
-    position: absolute;
-    bottom: 8px;
-    left: 4px;
-    right: 0px;
-    width: 1495px;
-    height: 750px;
-    background-color: rgba(86, 101, 115, 0.6);
-}
-
 
 /*
 ---------------------------------------------
@@ -1213,7 +1192,6 @@ ul {
     color: #222222;
     /* needs to stay here because of the color property of a tag */
     text-decoration: none;
-<<<<<<< Updated upstream
 }
 
 
@@ -1222,10 +1200,43 @@ ul {
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-image: url('//images/about.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 0.;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.masthead .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
 }
 
 
@@ -1603,6 +1614,4 @@ a:hover {
     .yellow:nth-child(2n)::before {
         background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50%);
     }
-=======
->>>>>>> Stashed changes
 }

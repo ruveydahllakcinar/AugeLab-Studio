@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -33,6 +36,8 @@
     <link href="css/fontawesome-all.min.css" rel="stylesheet" />
     <link href="css/swiper.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
@@ -57,7 +62,8 @@
     </script>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbarExample">
+
     <!-- Navigation -->
     <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
         <div class="container">
@@ -68,9 +74,9 @@
             <!-- <a class="navbar-brand logo-text" href="index.html">Logo</a> -->
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-    
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
+
+                <span class="navbar-toggler-icon"></span>
+                </button>
             <!-- Start of navbar-collapse -->
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
@@ -81,7 +87,7 @@
                         <a class="nav-link" href="support.html">Support</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="company.html">Company</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="blog.html">Blog</a>
@@ -97,11 +103,11 @@
 
                 </ul>
                 <span class="nav-item">
-                            <a class="btn-solid-sm" href="https://account.augelab.com/">SIGN IN</a>
-                        </span>
+                        <a class="btn-solid-sm" href="https://account.augelab.com/">SIGN IN</a>
+                    </span>
                 <span class="nav-item">
-                            <a class="btn-solid-sm" href="https://account.augelab.com/">SIGN UP</a>
-                        </span>
+                        <a class="btn-solid-sm" href="https://account.augelab.com/">SIGN UP</a>
+                    </span>
             </div>
             <!-- end of navbar-collapse -->
         </div>
@@ -109,44 +115,269 @@
     </nav>
     <!-- end of navigation -->
 
-    <!-- About -->
-    <div id="details" class="details">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-xl-7">
-                    <h1>
-                        <span>ABOUT US</span><br />
-                    </h1>
-                    <div class="image-container">
-                        <img class="gif-fluid" src="images/about.gif" alt="alternative" />
-                    </div>
-                    <!-- end of image-container -->
-                </div>
-                <!-- end of col -->
-                <div class="">
-                    <div class="text-container">
+    <!-- Full Page Image Header -->
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
 
-                        <p>
-                            AugeLab was founded in 2019 by an experienced team with such as image processing, artificial intelligence, industrial automation.
-                        </p>
-                        <p>
-                            AugeLab main focus is computer vision and artificial intelligence, enables even people who do not have technical expertise to develop solutions in this field with the platform it has developed.
-                        </p>
-                        <p>AugeLab was founded in 2019 by an experienced team with such as image processing, artificial intelligence, industrial automation. AugeLab main focus is computer vision and artificial intelligence, enables even people who do not
-                            have technical expertise to develop solutions in this field with the platform it has developed. Especially in industrial production areas, it is used in many sectors such as automotive, wood, textile, metal, machine manufacturing,
-                            industrial automation, and it significantly reduces commissioning costs due to the fact that it increases the production and quality efficiency of end users and enables them to develop in-house solutions. On the other hand,
-                            which develops solutions with the Python coding language with AugeLab Studio Marketplace, enables companys, start-ups and freelance software developers to generate income by offering their solutions around a certain standard
-                            to end users, and offers the opportunity to reach more solutions constantly.</p>
-                    </div>
-                    <!-- end of text-container -->
+                <video autoplay muted loop id="myVideo">
+                  <source src="images/about.gif" type="video/mp4">
+                     Your browser does not support HTML5 video.
+                </video>
+
+                <div class="content">
+                    <h1>Heading</h1>
+                    <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat
+                        oblique delicatissimi pro.</p>
+                    <button id="myBtn" onclick="myFunction()">Pause</button>
                 </div>
-                <!-- end of col -->
+
+
             </div>
-            <!-- end of row -->
         </div>
-        <!-- end of container -->
+    </header>
+
+    <!-- about us -->
+    <div>
+        <div class="container h-100 pt-5 ">
+            <div class="col-md-12 ">
+
+                <h1 class="col-md-12 pt-5 text-center"> ABOUT US</h1>
+
+                <p class="fst-italic pt-5 text-center h4">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. In distinctio sint placeat, ratione asperiores quas, eaque et, culpa fuga doloremque tempore nulla. Asperiores, deserunt optio autem esse doloremque eaque suscipit. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. In distinctio sint placeat, ratione asperiores quas, eaque et, culpa fuga doloremque tempore nulla. Asperiores, deserunt optio autem esse doloremque eaque suscipit. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. In distinctio sint placeat, ratione asperiores quas, eaque et, culpa fuga doloremque tempore nulla. Asperiores, deserunt optio autem esse doloremque eaque suscipit. Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. In distinctio sint placeat, ratione asperiores quas, eaque et, culpa fuga doloremque tempore nulla. Asperiores, deserunt optio autem esse doloremque eaque suscipit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+                    distinctio sint placeat, ratione asperiores quas, eaque et, culpa fuga doloremque tempore nulla.
+                </p>
+                <p class="fst-italic  text-center h4">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. In distinctio sint placeat, ratione asperiores quas, eaque et, culpa fuga doloremque tempore nulla. Asperiores, deserunt optio autem esse doloremque eaque suscipit. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. In distinctio sint placeat, ratione asperiores quas, eaque et, culpa fuga doloremque tempore nulla. Asperiores, deserunt optio autem esse doloremque eaque suscipit. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. In distinctio sint placeat, ratione asperiores quas, eaque et, culpa fuga doloremque tempore nulla.
+                </p>
+                <div class="d-flex justify-content-center mt-5 pb-5">
+                    <img src="images/logo.png">
+                </div>
+            </div>
+            <hr>
+        </div>
     </div>
-    <!-- end of about-->
 
 
+    <!-- OUR VALUES -->
+    <div class="social-box">
+        <div class="container">
+            <h1 class="col-md-12 pt-5 text-center"> OUR VALUES</h1>
+            <div class="row">
+
+                <div class="col-lg-4 col-xs-12 text-center">
+                    <div class="box">
+                        <i class="fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        <div class="box-title">
+                            <h3>WE ARE TEAM</h3>
+                        </div>
+                        <div class="box-text">
+                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xs-12  text-center">
+                    <div class="box">
+                        <i class="fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        <div class="box-title">
+                            <h3>WE ARE TEAM</h3>
+                        </div>
+                        <div class="box-text">
+                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xs-12 text-center">
+                    <div class="box">
+                        <i class="fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        <div class="box-title">
+                            <h3>WE ARE TEAM</h3>
+                        </div>
+                        <div class="box-text">
+                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xs-12 text-center">
+                    <div class="box">
+                        <i class="fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        <div class="box-title">
+                            <h3>WE ARE TEAM</h3>
+                        </div>
+                        <div class="box-text">
+                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xs-12 text-center">
+                    <div class="box">
+                        <i class="fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        <div class="box-title">
+                            <h3>WE ARE TEAM</h3>
+                        </div>
+                        <div class="box-text">
+                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xs-12 text-center">
+                    <div class="box">
+                        <i class="fa fa-coffee fa-3x" aria-hidden="true"></i>
+                        <div class="box-title">
+                            <h3>WE ARE TEAM</h3>
+                        </div>
+                        <div class="box-text">
+                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <h1 class="col-md-12 pt-5 text-center pb-5"> OUR VALUES</h1>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" data-src="holder.js/100px270/#55595c:#373a3c/text:Card image" alt="100%x270" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22529%22%20height%3D%22270%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20529%20270%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18009836e87%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A26pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18009836e87%22%3E%3Crect%20width%3D%22529%22%20height%3D%22270%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22197.99609375%22%20y%3D%22146.7%22%3E529x270%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                        data-holder-rendered="true" style="height: 270px; width: 100%; display: block;">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" data-src="holder.js/100px270/#55595c:#373a3c/text:Card image" alt="100%x270" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22529%22%20height%3D%22270%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20529%20270%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18009836e87%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A26pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18009836e87%22%3E%3Crect%20width%3D%22529%22%20height%3D%22270%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22197.99609375%22%20y%3D%22146.7%22%3E529x270%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                        data-holder-rendered="true" style="height: 270px; width: 100%; display: block;">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Back To Top Button -->
+    <button onclick="topFunction()" id="myBtn">
+      <img src="images/up-arrow.png" alt="alternative" />
+    </button>
+    <!-- end of back to top button -->
+
+
+    <!-- FOOTER -->
+    <footer class="w-100 py-4 flex-shrink-0 mt-5">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-3 col-md-6">
+                    <img src="images/logo.png" class="logo-image">
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-warning" href="#">Ruveyda Hilal AKÇINAR</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-color mb-3">FAST ACCESS</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-color mb-3">IMPORTANT INFORMATIONS</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Confidentiality Agreement</a></li>
+                        <li><a href="#">Protection of Personal Data</a></li>
+                        <li><a href="#">Sales Agreement</a></li>
+                        <li><a href="#">Customer Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-color mb-3">MEMBER</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">Sign Up</a></li>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <!-- Swiper for image and text sliders -->
+    <script src="js/purecounter.min.js"></script>
+    <!-- Purecounter counter for statistics numbers -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- Isotope for filter -->
+    <script src="js/scripts.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 100,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            stagePadding: 50,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                },
+                1400: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+    </script>
 </body>
+
+</html>
