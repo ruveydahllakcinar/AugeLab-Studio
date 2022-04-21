@@ -1814,3 +1814,122 @@ BLOG SINGLE
 .section {
     padding: 100px 0px;
 }
+
+
+/*RESPONSIVE*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*----------------------
+    CONTENT PADDING
+    -----------------------*/
+    .content-padding {
+        padding: 250px 0px 100px;
+    }
+    /*----------------------
+     SECTION HEAINDG
+    -----------------------*/
+    .section-heading {
+        width: 100%;
+    }
+    /*--------------
+     BLOG
+    ----------------*/
+    .blog-text {
+        padding: 0px;
+        margin-top: 10px;
+    }
+    .blog-tex h5 {
+        font-size: 15px;
+    }
+    .blog-text p {
+        font-size: 14px;
+    }
+    .pricing-block {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /*----------------------
+    CONTENT PADDING
+    -----------------------*/
+    .content-padding {
+        padding: 50px 0px 80px;
+    }
+    /*----------------------
+     SECTION HEAINDG
+    -----------------------*/
+    #intro .section-heading,
+    .section-heading {
+        width: 100%;
+    }
+    #intro .section-heading p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .section-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    /*--------------------
+     BANNER
+    -----------------*/
+    .banner-content .banner-title {
+        line-height: 37px;
+    }
+    .banner-content p {
+        font-size: 16px;
+    }
+    /*----------------
+     INTRO
+    ----------------*/
+    #intro {
+        padding-bottom: 90px;
+    }
+    /*----------------
+     ABOUT
+    ----------------*/
+    .about-list li {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .about-bg-img {
+        width: 35%;
+        height: 100%;
+        max-height: 600px;
+    }
+    .about-content {
+        margin-top: 60px;
+    }
+    #about {
+        padding-bottom: 40px;
+    }
+    .img-block img {
+        width: 130px;
+    }
+    .service-block {
+        margin-bottom: 20px;
+    }
+    /*--------------
+     BLOG
+    ----------------*/
+    .blog-block {
+        margin-bottom: 30px;
+    }
+    .blog-text {
+        padding: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .blog-tex h5 {
+        font-size: 15px;
+    }
+    .blog-text p {
+        font-size: 14px;
+    }
+}
