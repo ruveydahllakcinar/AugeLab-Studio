@@ -36,6 +36,11 @@
     <link href="css/fontawesome-all.min.css" rel="stylesheet" />
     <link href="css/swiper.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
+    <!-- Icofont -->
+    <link rel="stylesheet" href="css/icofont.css">
+    <!-- Icofont Css -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/icofont.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
@@ -129,28 +134,55 @@
                                         <div class="mt-4 mb-3 d-flex">
                                             <div class="post-author mr-3">
                                                 <i class="fa fa-user"></i>
-                                                <span class="h6 text-uppercase">John mackel</span>
+                                                <span class="h6 text-uppercase">Sinem Ağar</span>
                                             </div>
 
                                             <div class="post-info">
                                                 <i class="fa fa-calendar-check"></i>
-                                                <span>19 jun 18</span>
+                                                <span>15 Sept 21</span>
                                             </div>
                                         </div>
 
-                                        <a href="#" class="h4 ">Grow your site with latest startegy</a>
+                                        <a href="#" class="h3 ">AUGELAB İLE FİND OBJECT VE OBJECT COUNTER (Nesne Bulma ve Sayma)</a>
 
-                                        <p class="mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, aliquid perspiciatis voluptate voluptatibus, dolorem laboriosam deleniti dolores reprehenderit nostrum odit, fuga iusto perferendis quas suscipit
-                                            corporis obcaecati maxime provident cumque!</p>
+                                        <p class="mt-3">Günümüz Endüstrisinde ve fabrikalarda artık teknoloji yerini almış durumda. Bir pet şişe fabrikası düşünelim günlük ürettiği şişe sayısını saymak istiyoruz. Bunu teknolojiyi Görüntü işlemeyi kullanarak yapabiliriz.
+                                            Tabii kod yazmamız gerekecektir. Daha kolay yolu ise bu sistemi AUGELAB Studio yoluyla oluşturmak olabilir. Bugün ki yazımda AUGELAB ile Nesne bulma ve bulunan nesneyi saymayı deneyeceğiz.</p>
                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veri.</p>
 
-                                        <blockquote class="quote">
-                                            <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nobis, molestias ipsam assumenda debitis quibusdam mollitia laudantium facere neque quas optio sequi eligendi
-                                            recusandae, veritatis dicta asperiores ex fugiat quasi!
+                                        <blockquote class="quote-blog">
+                                            <i class="fa fa-quote-left"></i> Öncellikle AUGELAB web sitesinden Studio’yu indirip kurabilirsiniz, kurulum talimatları web sitesinde ve youtube kanalında bulunuyor.
                                         </blockquote>
+                                        <h4>FİND OBJECT</h4>
+                                        <p>Öncellikle Augelab Studio’yu açalım.</p>
+                                        <p>Nesne bulma ve sayabilmek için Studio’nun içine aktif işleyen video bloğunu eklememiz gerekecek.</p>
+                                        <p>Gerçek sistemde kamera bloğu kullanıyoruz ama şu anda bir video üzerinden işlem yapacağımız için Camera USB/Video bloğunu ekleyerek open video file kısmından videomuzu seçiyoruz.</p>
+                                        <div class="d-flex justify-content-center mt-3 mb-5">
+                                            <img src="images/camera USB- Video Blogu.png" alt="Camera USB - Video Blogu">
+                                        </div>
+                                        <p>Üzerinde çalıştığınız videolar yüksek çözünürlükte olabilir. Bu durum bilgisayarınızın performansını etkileyebilir. Düşük çözünürlükte çalışmak sizin yazılımınızı etkilemiyorsa image resizer kullanabilirsiniz. Bu
+                                            sebepten dolayı videonun çözünürlülüğünü sisteme çok eksisi olmadan bilgisayarınızı rahatlatmak amacıyla çözünürlük kontrolü sağladığımız image resizer eklememiz gerekecek. Output image çıkışına image resizer
+                                            bloğunun girişine bağlayıp içindeki değeri 25 yapıyoruz.</p>
+                                        <p>Resized image çıkışına durumu görmek için Show image ekleyip f5 e basarak sistemi bir kere çalıştırıyoruz.</p>
+                                        <div class="d-flex justify-content-center mt-3 mb-5">
+                                            <img src="images/Image Resizer Kullanımı.png" alt="Image Resizer Kullanımı">
+                                        </div>
 
-                                        <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                                        <p>Nesne bulmak amacıyla ilk başta hangi nesneyi bulmamız gerektiğini öğretmemiz lazım. Bunun için image memory ile fotoğrafı tutup sistemi o fotoğraf ile besleyebiliriz. İmage resizer ile işlediğimiz veriyi bu bloğun
+                                            çıkışıyla image memory bloğunun input img girişine bağlıyoruz. Hold condition girişi sayesinde görüntüyü tutacağız. Mavi input için logic input bloğunu ekleyip bağlıyoruz. Ve image memory bloğunun çıkışına görüntü
+                                            seçmek için Image ROI select bloğunu ekleyip bağlıyoruz.</p>
+
+                                        <p>Logic input bloğunu True yaptıktan sonra sistemi çalıştırıp uygun olan fotoğrafa geldiğinde logic inputu false seçeneğine çekerek resmi sabitliyoruz. (Eğer sistem burada hata verirse image select bloğunun sonuna
+                                            Show image ekleyerek sorunu giderebilirsiniz.)</p>
+                                        <div class="d-flex justify-content-center mt-3 mb-5">
+                                            <img src="images/Image ROI Select Kullanımı.png" alt="Image ROI Select Kullanımı">
+                                        </div>
+                                        <p>Image resizer çıkışına bir tane find object bloğu ekleyeceğiz. Find Object çalışma mantığı bir tane main image alıyor, bu görüntü kameradan anlık da gelebilir ya da bir video dosyası da olabilir. Bir tane de object
+                                            image girişi vardır. Bu girişe gelen veri, referans görüntümüz veya seçmiş olduğumuz görüntü olabilir. ROI select bloğu ile seçtiğimiz görüntüyü de find object bloğuna aktarmamız gerekiyor. Bu yüzden find object
+                                            bloğunun object image girişini ROI image çıkışı ile bağlıyoruz. Son olarak elde ettiğimiz çıktıyı görmek için Show image ekliyoruz.
+                                        </p>
+                                        <p>Find object bloğunda bulunan match Threshold ile modele en uygun doğruluk oranını yakalamak için bulunan bar’ı deneyerek modele en uygun seviyede sabit bırakıyoruz.</p>
+
+
                                         <div class="mt-5 mb-3">
                                             <h5 class="d-inline-block mr-3">Tags:</h5>
                                             <ul class="list-inline d-inline-block">
@@ -170,69 +202,6 @@
                                         </div>
                                     </div>
 
-
-                                    <div class="comments my-4">
-                                        <h3 class="mb-5">Comments :</h3>
-
-                                        <div class="media mb-4">
-                                            <img src="images/blog/2.jpg" alt="" class="img-fluid d-flex mr-4 rounded">
-                                            <div class="media-body">
-                                                <h5>John michele</h5>
-                                                <span class="text-muted">20 Jan 2018</span>
-                                                <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi laborum dolores quidem ea optio fuga nesciunt tempora, in tenetur iusto!</p>
-
-                                                <a href="#" class="reply">Reply <i class="fa fa-reply"></i></a>
-
-                                                <div class="media mt-5">
-                                                    <img src="images/blog/2.jpg" alt="" class="img-fluid d-flex mr-4 rounded">
-                                                    <div class="media-body">
-                                                        <h5>John michele</h5>
-                                                        <span class="text-muted">20 Jan 2018</span>
-                                                        <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi laborum dolores quidem ea optio fuga nesciunt tempora, in tenetur iusto!</p>
-
-                                                        <a href="#" class="reply">Reply <i class="fa fa-reply"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="media mb-4">
-                                            <img src="images/blog/2.jpg" alt="" class="img-fluid d-flex mr-4 rounded">
-                                            <div class="media-body">
-                                                <h5>John michele</h5>
-                                                <span class="text-muted">20 Jan 2018</span>
-                                                <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi laborum dolores quidem ea optio fuga nesciunt tempora, in tenetur iusto!</p>
-
-                                                <a href="#" class="reply">Reply <i class="fa fa-reply"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="mt-5 mb-3">
-                                        <h3 class="mt-5 mb-2">Leave a comment</h3>
-                                        <p class="mb-4">We don't spam at your inbox.</p>
-                                        <form action="#" class="row">
-                                            <div class="col-lg-12">
-                                                <div class="form-group mb-3">
-                                                    <textarea cols="30" rows="6" class="form-control" placeholder="Message"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="form-group mb-3">
-                                                    <input type="text" class="form-control" placeholder="Name">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6">
-                                                <div class="form-group mb-4">
-                                                    <input type="email" class="form-control" placeholder="Email">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-12">
-                                                <a href="#" class="btn btn-hero btn-circled">Send a message</a>
-                                            </div>
-                                        </form>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -247,12 +216,6 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-12">
-                                    <div class="sidebar-widget about-bar">
-                                        <h5 class="mb-3">About us</h5>
-                                        <p>Nostrum ullam porro iusto. Fugit eveniet sapiente nobis nesciunt velit cum fuga doloremque dignissimos asperiores</p>
-                                    </div>
-                                </div>
 
                                 <div class="col-lg-12">
                                     <div class="sidebar-widget category">
@@ -269,28 +232,6 @@
                                         </ul>
                                     </div>
                                 </div>
-
-                                <div class="col-lg-12">
-                                    <div class="sidebar-widget tag">
-                                        <a href="#">web</a>
-                                        <a href="#">development</a>
-                                        <a href="#">seo</a>
-                                        <a href="#">marketing</a>
-                                        <a href="#">branding</a>
-                                        <a href="#">web deisgn</a>
-                                        <a href="#">Tutorial</a>
-                                        <a href="#">Tips</a>
-                                        <a href="#">Design trend</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="sidebar-widget download">
-                                        <h5 class="mb-4">Download Files</h5>
-                                        <a href="#"> <i class="fa fa-file-pdf"></i>Company Manual</a>
-                                        <a href="#"> <i class="fa fa-file-pdf"></i>Company Profile</a>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
@@ -299,60 +240,45 @@
         </div>
     </div>
     <!--  FOOTER AREA START  -->
-    <section id="footer" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-8 col-md-8">
-                    <div class="footer-widget footer-link">
-                        <h4>We concern about you<br> to grow business rapidly.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam hic non sunt recusandae atque unde saepe nihil earum voluptatibus aliquid optio suscipit nobis quia excepturi vel quod, iure quae.</p>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <div class="footer-widget footer-link">
-                        <h4>About</h4>
-                        <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
-                    </div>
-                </div>
 
-                <div class="col-lg-2 col-sm-6 col-md-6">
-                    <div class="footer-widget footer-link">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="#">How it Works</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Report Bug</a></li>
-                            <li><a href="#">License</a></li>
-                            <li><a href="#">Terms & Condition</a></li>
-                        </ul>
-                    </div>
+    <!-- FOOTER -->
+    <footer class="w-100 py-4 flex-shrink-0 mt-5">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-3 col-md-6">
+                    <img src="images/logo.png" class="logo-image">
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-warning" href="#">Ruveyda Hilal AKÇINAR</a></p>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="footer-widget footer-text">
-                        <h4>Our location</h4>
-                        <p class="mail"><span>Mail:</span> promdise@gmail.com</p>
-                        <p><span>Phone :</span>+202-277-3894</p>
-                        <p><span>Location:</span> 455 West Orchard Street Kings Mountain, NC 28086,NOC building</p>
-                    </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-color mb-3">FAST ACCESS</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="footer-copy">
-                        © 2018 Promodise inc. All Rights Reserved.
-                    </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-color mb-3">IMPORTANT INFORMATIONS</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Confidentiality Agreement</a></li>
+                        <li><a href="#">Protection of Personal Data</a></li>
+                        <li><a href="#">Sales Agreement</a></li>
+                        <li><a href="#">Customer Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-color mb-3">MEMBER</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">Sign Up</a></li>
+
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
+
     <!--  FOOTER AREA END  -->
 
 

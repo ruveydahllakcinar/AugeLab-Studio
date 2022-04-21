@@ -14,8 +14,9 @@ html {
 
 body,
 p {
-    color: #a9a9a9;
+    color: #222222;
     font: 400 18px "Open Sans", sans-serif;
+    line-height: 28px;
 }
 
 h1 {
@@ -1763,32 +1764,19 @@ BLOG PAGE
     color: #635CDB;
 }
 
-.download a {
-    display: block;
-    padding: 12px 20px;
-    border: 1px solid #eee;
-    margin-bottom: 10px;
-    background: #f2f2f2;
-}
-
-.download a i {
-    margin-right: 15px;
-    color: #635CDB;
-}
-
 
 /* ==================================
 BLOG SINGLE
 =====================================*/
 
-.quote i {
+.quote-blog i {
     font-size: 50px;
     margin-right: 10px;
     position: absolute;
     left: 0px;
 }
 
-.quote {
+.quote-blog {
     font-size: 18px;
     line-height: 32px;
     color: #222;
@@ -1802,82 +1790,27 @@ BLOG SINGLE
     height: 80px;
 }
 
-
-/*--------------------------
- FOOTER
-----------------------*/
-
-#footer {
-    padding-bottom: 60px;
-    position: relative;
-    background: url("../images/bg/2.png");
-    border-top: 1px solid #eee;
+.section-padding {
+    padding: 90px 0px;
 }
 
-.footer-widget ul li {
-    padding: 5px 0px;
+.section-heading {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 60px;
 }
 
-.footer-widget p {
-    margin-bottom: 5px;
-}
-
-.footer-widget h4 {
-    margin-bottom: 20px;
-}
-
-.footer-widget h4 span {
-    color: #635CDB;
-    display: block;
-    font-size: 60px;
-    line-height: 60px;
-}
-
-.footer-blog li img {
-    width: 70px;
-    height: 70px;
-    float: left;
-    margin-right: 20px;
-}
-
-.footer-blog li h5 {
-    margin-bottom: 10px;
-    font-size: 16px;
-    line-height: 22px;
+.section-title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 15px;
     text-transform: capitalize;
 }
 
-.footer-blog li a.read-more {
-    font-size: 13px;
-}
-
-.footer-blog li {
-    margin-bottom: 15px;
-}
-
-.footer-copy {
-    letter-spacing: 1px;
-    padding-top: 30px;
-    margin-top: 30px;
-    border-top: 1px solid #eee;
-}
-
-.footer-text h6 {
-    margin-bottom: 10px;
-}
-
-.footer-text p span {
-    color: #000;
-}
-
-.footer-text p.mail {
+.section-title span {
     color: #635CDB;
 }
 
-.bg-main {
-    background: #F4F8FB;
-}
-
-.footer-widget a {
-    color: #999;
+.section {
+    padding: 100px 0px;
 }
