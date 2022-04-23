@@ -90,6 +90,16 @@ a:hover {
     text-decoration: underline;
 }
 
+.iframesize {
+    height: 315 !important;
+    width: 560 !important;
+}
+
+.documentPdf {
+    width: 100%;
+    height: 1000px;
+}
+
 .no-line {
     text-decoration: none;
 }
@@ -1248,6 +1258,9 @@ ul {
     .col-sm-4 {
         text-align: center;
         margin: 25px 0;
+    }
+    .section-padding .container .item-img {
+        width: 75%;
     }
 }
 
