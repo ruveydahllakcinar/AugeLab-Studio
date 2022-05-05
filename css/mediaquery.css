@@ -1,0 +1,87 @@
+/*960-1599 respponsive*/
+
+@media ((min-width:960) and (max-width:1599px)) {
+    /* Navigation */
+    .navbar.extra-page {
+        padding-top: 0.5rem;
+    }
+    .navbar.top-nav-collapse {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        background-color: #ffffff;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+    }
+    .offcanvas-collapse {
+        position: static;
+        top: auto;
+        bottom: auto;
+        left: auto;
+        width: auto;
+        padding-right: 0;
+        padding-left: 0;
+        background-color: transparent;
+        overflow-y: visible;
+        visibility: visible;
+    }
+    .offcanvas-collapse.open {
+        -webkit-transform: none;
+        transform: none;
+    }
+    .navbar .navbar-nav {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .navbar .nav-item .nav-link {
+        padding-right: 0.75rem;
+        padding-left: 0.75rem;
+    }
+    .navbar .nav-item .btn-solid-sm {
+        margin-top: 0;
+        margin-left: 1rem;
+    }
+    /* end of navigation */
+}
+
+
+/*768-959 responsive */
+
+@media ((min-width:768) and (max-width:959px)) {
+    /*CONTACT RESPONSIVE*/
+    form#contact {
+        overflow: hidden;
+    }
+    .header-area .main-nav .logo h4 {
+        font-size: 20px;
+    }
+    .main-banner .left-content {
+        margin-right: 0px;
+    }
+    .contact-info {
+        margin-top: 60px;
+    }
+    form#contact {
+        padding: 45px;
+    }
+}
+
+
+/*Max 767 responsive*/
+
+@media (max-width:767) {
+    /*CONTACT RESPONSIVE*/
+    form#contact {
+        overflow: hidden;
+    }
+    .header-area .main-nav .logo h4 {
+        font-size: 20px;
+    }
+    .main-banner .left-content {
+        margin-right: 0px;
+    }
+    .contact-info {
+        margin-top: 60px;
+    }
+    form#contact {
+        padding: 45px;
+    }
+}

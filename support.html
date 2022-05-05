@@ -36,6 +36,8 @@
     <link href="css/fontawesome-all.min.css" rel="stylesheet" />
     <link href="css/swiper.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/mediaquery.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
@@ -48,12 +50,7 @@
                 <div class="container">
                     <!-- Image Logo -->
                     <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative" /></a>
-
-                    <!-- Text Logo - Use this if you don't have a graphic logo -->
-                    <!-- <a class="navbar-brand logo-text" href="index.html">Logo</a> -->
-
                     <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-
                 <span class="navbar-toggler-icon"></span>
                 </button>
                     <!-- Start of navbar-collapse -->
@@ -77,9 +74,6 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
-
-
-
                         </ul>
                         <span class="nav-item">
                         <a class="btn-solid-sm" href="https://account.augelab.com/">SIGN IN</a>
@@ -101,21 +95,21 @@
                 <div class="start-nav mt-5">
                     <h3>START LEARNING AUGELAB STUDIO</h3>
                     <div class="nav justify-content-center mt-5">
-                        <button type="button" class="btn btn-warning">Start Now</button>
+                        <button type="button" class="btn btn-solid-reg">Start Now</button>
                     </div>
                 </div>
 
             </div>
-            <div class="container mt-5">
+            <div class="navtab container mt-5">
                 <ul class="nav nav-tabs mt-5 justify-content-center" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="installation-tab" data-bs-toggle="tab" data-bs-target="#installation" type="button" role="tab" aria-controls="installation" aria-selected="true">Installation</button>
+                    <li class="nav-itm" role="presentation">
+                        <button class="nav-list " id="installation-tab" data-bs-toggle="tab" data-bs-target="#installation" type="button" role="tab" aria-controls="installation" aria-selected="true">Installation</button>
                     </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="gettingstarted-tab" data-bs-toggle="tab" data-bs-target="#gettingstarted" type="button" role="tab" aria-controls="gettingstarted" aria-selected="false">Getting Started</button>
+                    <li class="nav-itm" role="presentation">
+                        <button class="nav-list" id="gettingstarted-tab" data-bs-toggle="tab" data-bs-target="#gettingstarted" type="button" role="tab" aria-controls="gettingstarted" aria-selected="false">Getting Started</button>
                     </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="documentation-tab" data-bs-toggle="tab" data-bs-target="#documentation" type="button" role="tab" aria-controls="documentation" aria-selected="false">Documentation</button>
+                    <li class="nav-itm" role="presentation">
+                        <button class="nav-list" id="documentation-tab" data-bs-toggle="tab" data-bs-target="#documentation" type="button" role="tab" aria-controls="documentation" aria-selected="false">Documentation</button>
                     </li>
                 </ul>
                 <!--Installation Start-->
@@ -123,18 +117,22 @@
                     <div class="tab-pane fade show active" id="installation" role="tabpanel" aria-labelledby="installation-tab">
                         <div class="row">
                             <div class="row">
-                                <div class="col-lg-6 col-sm-12 mt-5">
+                                <div class="video-container col-lg-6 col-sm-12 mt-5">
 
-                                    <iframe width="560" height="315" class="responsive-iframe" src="https://www.youtube.com/embed/iesVf1haRkA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe width="560" height="315" class="responsive-iframe">
-
+                                    <iframe src="https://www.youtube.com/embed/iesVf1haRkA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
 
                                 <div class="col-lg-6 col-sm-12mt-5">
                                     <h3 class="text-h3">1. Install your software quickly by following the steps.</h3>
                                 </div>
                             </div>
+                            <hr class="mt-5">
                             <div class="row">
+
+
+                                <div class="video-container col-lg-6 col-sm-12mt-5">
+                                    <iframe src="https://www.youtube.com/embed/NpCxsg0jr_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                                 <div class="col-lg-6 col-sm-12">
                                     <div>
                                         <h3 class="text-h3">2.Cuda and Cudnn packages Download Procedures</h3>
@@ -146,58 +144,56 @@
                                     </ul>
 
                                 </div>
+                                <hr class="mt-5">
 
-                                <div class="col-lg-6 col-sm-12mt-5">
-                                    <iframe width="560" height="315" class="responsive-iframe" src="https://www.youtube.com/embed/NpCxsg0jr_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe width="560" height="315" class="responsive-iframe">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-12 mt-5">
-                                    <img src="images/c++ version.png" class="img-version">
-                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 mt-5">
+                                        <img src="images/c++ version.png" class="img-version">
+                                    </div>
 
-                                <div class="col-lg-6 col-sm-12">
-                                    <h3 class="text-h3">3.Download Microsoft Visual C++</h3>
-                                    <p class="text-center">Files the following packages must be installed ;</p>
-                                    <ul class="text-center">
-                                        <li> Microsoft Visual C++ 2013</li>
-                                        <li>Microsoft Visual C++ 2015</li>
-                                        <li>Microsoft Visual C++ 2017</li>
-                                        <li>Microsoft Visual C++ 2019</li>
-                                    </ul>
-                                    <h3 class="text-vs">Download Visual C++ Package</h3>
-                                    <div style="text-align: center;">
-                                        <span class="nav-item">
+                                    <div class="col-lg-6 col-sm-12">
+                                        <h3 class="text-h3">3.Download Microsoft Visual C++</h3>
+                                        <p class="text-center">Files the following packages must be installed ;</p>
+                                        <ul class="text-center">
+                                            <li> Microsoft Visual C++ 2013</li>
+                                            <li>Microsoft Visual C++ 2015</li>
+                                            <li>Microsoft Visual C++ 2017</li>
+                                            <li>Microsoft Visual C++ 2019</li>
+                                        </ul>
+                                        <h3 class="text-vs">Download Visual C++ Package</h3>
+                                        <div style="text-align: center;">
+                                            <span class="nav-item">
                                     <a class="btn-solid-vs" href="#">Microsoft Visual C++ 2013</a>
                                      </span>
-                                        <span class="nav-item">
+                                            <span class="nav-item">
                                     <a class="btn-solid-vs" href="#">Microsoft Visual C++ 2015-17-19 </a>
                                      </span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-12">
-                                    <h3 class="text-h3">4.Cuda Toolkit Installation</h3>
+                                <hr class="mt-5">
+                                <div class="row">
+                                    <div class="video-container col-lg-6 col-sm-12 mt-5">
+
+                                        <iframe src="https://www.youtube.com/embed/f21yToXuHK0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12">
+                                        <h3 class="text-h3">4.Cuda Toolkit Installation</h3>
+
+                                    </div>
 
                                 </div>
-                                <div class="col-lg-6 col-sm-12 mt-5">
+                                <hr class="mt-5">
+                                <div class="row">
+                                    <div class="video-container col-lg-6 col-sm-12 mt-5">
+                                        <iframe src="https://www.youtube.com/embed/T4nyHaEEVdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12 mt-5">
+                                        <h3 class="text-h3">5.CuDNN Installation</h3>
 
-                                    <iframe width="560" height="315" class="responsive-iframe" src="https://www.youtube.com/embed/f21yToXuHK0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe width="560" height="315" class="responsive-iframe">
-
-                                </div>
-
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-12 mt-5">
-                                    <iframe width="560" height="315" class="responsive-iframe" src="https://www.youtube.com/embed/T4nyHaEEVdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe width="560" height="315" class="responsive-iframe">
-                                </div>
-                                <div class="col-lg-6 col-sm-12 mt-5">
-                                    <h3 class="text-h3">5.CuDNN Installation</h3>
+                                    </div>
 
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
@@ -206,56 +202,58 @@
                     <div class="tab-pane fade" id="gettingstarted" role="tabpanel" aria-labelledby="gettingstarted-tab">
                         <div class="row">
                             <div class="row">
-                                <div class="col-lg-6 col-sm-12 mt-5">
+                                <div class="video-container col-lg-6 col-sm-12 mt-5">
 
-                                    <iframe width="560" height="315" class="responsive-iframe" src="https://www.youtube.com/embed/8qSCTGcWz3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe width="560" height="315" class="responsive-iframe">
+                                    <iframe src="https://www.youtube.com/embed/8qSCTGcWz3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
-
                                 <div class="col-lg-6 col-sm-12 mt-5">
                                     <h3 class="text-h3">1.First Review</h3>
                                     <p class="text-center">Learn about the AugeLab interface.</p>
                                 </div>
                             </div>
+                            <hr class="mt-5">
                             <div class="row">
+                                <div class="video-container col-lg-6 col-sm-12 mt-5">
+                                    <iframe src="https://www.youtube.com/embed/50f5-5kOA5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                                 <div class="col-lg-6 col-sm-12">
                                     <h3 class="text-h3"> 2. Uses of Drag and Drop Functions</h3>
                                     <p class="text-center">Learn the basics of programming.</p>
                                 </div>
 
-                                <div class="col-lg-6 col-sm-12 mt-5">
-                                    <iframe width="560" height="315" class="responsive-iframe" src="https://www.youtube.com/embed/50f5-5kOA5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe width="560" height="315" class="responsive-iframe">
-                                </div>
                             </div>
+                            <hr class="mt-5">
                             <div class="row">
-                                <div class="col-lg-6 col-sm-12 mt-5">
-                                    <iframe width="560" height="315" class="responsive-iframe" src="https://www.youtube.com/embed/IxO0Ye7Woc0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe width="560" height="315" class="responsive-iframe">
+                                <div class="video-container col-lg-6 col-sm-12 mt-5">
+                                    <iframe src="https://www.youtube.com/embed/IxO0Ye7Woc0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
                                     <h3 class="text-h3"> 3.Blocks and Toolbar Menu</h3>
                                     <p class="text-center">Menus and interfaces.</p>
                                 </div>
                             </div>
+                            <hr class="mt-5">
                             <div class="row">
+                                <div class="video-container col-lg-6 col-sm-12 mt-5">
+                                    <iframe src="https://www.youtube.com/embed/TUpvWcRj_1w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+
                                 <div class="col-lg-6 col-sm-12">
                                     <h3 class="text-h3"> 4. My First Step Image Processing Project - ROI and Find Object
                                     </h3>
                                     <p class="text-center">You can now start your own project. Identify the images you are looking for on the photo with Find Object.</p>
 
+                                </div>
 
-                                </div>
-                                <div class="col-lg-6 col-sm-12 mt-5">
-                                    <iframe width="560" height="315" class="responsive-iframe" src="https://www.youtube.com/embed/TUpvWcRj_1w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe width="560" height="315" class="responsive-iframe">
-                                </div>
                             </div>
-
+                            <hr class="mt-5">
                             <div class="row">
-                                <div class="col-lg-6 col-sm-12 mt-5">
-                                    <iframe width="560" height="315" class="responsive-iframe" src="https://www.youtube.com/embed/dQO8B2rdbfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe width="560" height="315" class="responsive-iframe">
+                                <div class="video-container col-lg-6 col-sm-12 mt-5">
+                                    <iframe src="https://www.youtube.com/embed/dQO8B2rdbfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
                                     <h3 class="text-h3"> 5. My First Step Deep Learning Project</h3>
                                     <p class="text-center">Easily develop your own AI model by connecting your dataset.</p>
-
 
                                 </div>
                             </div>
@@ -265,7 +263,7 @@
                     <!--Documentation Start-->
                     <div class="tab-pane fade" id="documentation" role="tabpanel" aria-labelledby="documentation-tab">
                         <div class="graph-outline">
-                            <object class="documentPdf" width="560" height="315"  data="augelabpdf.pdf" type="application/pdf">
+                            <object class="documentPdf" width="560" height="315" data="augelabpdf.pdf" type="application/pdf">
                             <embed src="augelabpdf.pdf" type="application/pdf" />
                         </object>
                         </div>
@@ -278,7 +276,7 @@
         <!-- Back To Top Button -->
         <button onclick="topFunction()" id="myBtn">
         <img src="images/up-arrow.png" alt="alternative" />
-    </button>
+        </button>
         <!-- end of back to top button -->
 
         <!-- FOOTER -->
